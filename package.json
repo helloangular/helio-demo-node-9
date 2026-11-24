@@ -1,0 +1,15 @@
+{
+  "name": "helio-demo-node-9",
+  "version": "1.0.0",
+  "description": "A small Express API delivered to ECS Fargate by pipeline.",
+  "private": true,
+  "main": "src/server.js",
+  "engines": { "node": ">=20" },
+  "scripts": {
+    "start": "node src/server.js",
+    "test": "node --test"
+  },
+  "dependencies": {
+    "express": "4.22.3"
+  }
+}
