@@ -4,7 +4,7 @@
   "description": "A small Express API delivered to ECS Fargate by pipeline.",
   "private": true,
   "main": "src/server.js",
-  "engines": { "node": ">=20" },
+  "engines": { "node": ">=22" },
   "scripts": {
     "start": "node src/server.js",
     "test": "node --test"
